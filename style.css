@@ -1,0 +1,23 @@
+/* style.css */
+img {
+  border-radius: 10px; /* Bordas arredondadas para as imagens */
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.card {
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
